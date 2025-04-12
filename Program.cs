@@ -1,7 +1,18 @@
-﻿﻿double vlt, PM, tj, PMN, Vln, J, IOFM, IOFD, VPF, CCR;
+﻿﻿//Valor total da fatura(R$) = vlt
+//Pagamento Minimo(%) = PM
+//Taxa de juros mensais (%) = tj
+//Pagamento mínimo = PMN
+//Valor não pago = Vln
+//Juros = J
+//IOF mensal = IOFM 
+//IOF diário = IOFD
+//Valor a pagar na próxima fatura = VPF
+//Custo do crédito rotativo = CCR   
+
+double vlt, PM, tj, PMN, Vln, J, IOFM, IOFD, VPF, CCR;
  Console.Clear();
 Console.WriteLine("--- Crédito Rotativo de Cartão de Crédito ---");
-
+Console.WriteLine("");
 Console.Write("Valor total da fatura (R$)...:");
 vlt = Convert.ToDouble(Console.ReadLine()!);
 
